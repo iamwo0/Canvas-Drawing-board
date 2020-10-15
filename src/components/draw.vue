@@ -1,5 +1,6 @@
 <template>
     <div class="layout">
+      <a href="javascript:void(0);" ref="download" download="picture.png" v-show="false">保存图片</a>
         <div class="content">
             <div class="content-left">
                 <div class="color-picker">
